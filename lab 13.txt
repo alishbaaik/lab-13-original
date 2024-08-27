@@ -1,0 +1,12 @@
+#task 1
+def file_read(filename):
+	with open(filename,'r') as file:
+	   content=file.read()
+	return content()
+print(file_read('python.txt'))
+
+#task 2
+def write_nametofile():
+	name=input("please enter your name")
+	with open('guests.txt,'w')as file:
+write_nametofile()
